@@ -6,7 +6,7 @@
         <?php
         // Array simulando a lista de canais de TV
         $canais = [
-            ["name" => "telecine-pipoca", "image" => "img/Telecine_Pipoca.png"],
+            ["name" => "telecine-pipoca", "image" => "Telecine_Pipoca.png"],
             ["name" => "Canal 2", "image" => "canal2.jpg"],
             // Adicione mais canais conforme necessário
         ];
