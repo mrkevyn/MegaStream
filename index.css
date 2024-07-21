@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff3e00;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff3e00;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff3e00;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e63b00;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.category {
+    margin: 20px 0;
+    padding: 20px;
+    background: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.category h2 {
+    margin-top: 0;
+    color: #ff3e00;
+}
+
+/* Add this to your styles.css */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização dos links do rodapé */
+footer .footer-links {
+    margin-top: 10px;
+}
+
+footer .footer-links a {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* Estilização geral para um rodapé fixo no final da página */
+html, body {
+    height: 100%;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    footer p {
+        font-size: 12px;
+    }
+
+    footer .footer-links a {
+        font-size: 12px;
+        margin: 0 5px;
+    }
+}
